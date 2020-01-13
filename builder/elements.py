@@ -51,7 +51,7 @@ class FullTag(Element):
         return '{}{}{}'.format(self.anchor.begin_element, self.tag_text, self.anchor.end_element)
 
 
-class FullTag(Element):
+class FullTextTag(Element):
     """The Anchor Element"""
     def __init__(self, attribdict):
         super().__init__(element, has_attributes, attribdict)
